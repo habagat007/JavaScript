@@ -43,7 +43,10 @@ else {
  }
 
 
-
+}
+else{
+    alert ("thank you!");
+}
 /* ########################################################################## */
 
 /**
@@ -64,7 +67,7 @@ else {
  * console.logging the function's return value
  */
  function analyzeColor(pickcolor){
- 	
+ 	 pickcolor = pickcolor.toLowerCase();
  	
  	 if (pickcolor === 'red'){
  	 	return alert("Strawberries are RED,  you picked " + enteredColor);
@@ -142,10 +145,7 @@ var usercolor = prompt("pls enter any color ");
 analyzeColor(usercolor);
 
 
-}
-else{
-    alert ("thank you!");
-}
+
 
 /* ########################################################################## */
 
