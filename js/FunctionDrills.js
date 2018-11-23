@@ -56,3 +56,81 @@ function MultiFive(){
         return alert("pls refresh and enter a number");
     }
 }
+
+// function Multiple of Three and Five input
+
+function MultiFiveandThree(){
+    alert("Welcome to Multiple Of Five and Three function drill");
+    var timesfiveandthree = prompt("pls enter any number then i will multiply it by 5 and 3");
+    if (!isNaN(parseFloat(timesfiveandthree))) {
+        var total2 = parseFloat(timesfiveandthree) * 5;
+        var total3 = parseFloat(timesfiveandthree) * 3;
+        return alert("you entered " + timesfiveandthree + " then I multiply it by 5 total is " + total2 + " then I multiply it by 3 -->" + total3);
+
+    } else{
+        return alert("pls refresh and enter a number");
+    }
+}
+
+// function multipleOf(target,n)
+
+/*function MultiOf(){
+    alert("Welcome to Multiple Of (target,n) ");
+    var target = prompt("pls enter any number target number ");
+    var numvi = prompt("pls enter another number ");
+
+    if ((!isNaN(parseFloat(target)) && (!isNan(parseFloat(numvi)){
+        var total5 = parseFloat(timesthree) % numvi;
+          if(total5 === 0){
+              return alert("Your first number is " + target + " is divisible by your second number " + numvi);
+          }else {
+              return ("The first number you entered is " + target + " is not divisible by the second number ");
+          }
+
+
+    } else{
+        return alert("pls refresh and enter a number");
+    }
+}*/
+
+
+
+// function Multiple of Three
+
+function MultiThree(){
+    alert("Welcome to Multiple Of Three function drill");
+    var timesthree = prompt("pls enter any number then i will multiply it by 3");
+    if (!isNaN(parseFloat(timesthree))) {
+        var total4 = parseFloat(timesthree) * 3;
+        return alert("you entered " + timesthree + " then I multiply it by 3 total is " + total4);
+
+    } else{
+        return alert("pls refresh and enter a number");
+    }
+}
+
+//function isConsonant
+
+function isconsonant() {
+    alert("Welcome to Is Consonant function");
+    var consletr = prompt("pls pick any letter ");
+    var locase = consletr.toLowerCase();
+      if (locase == 'a' || locase == 'e' || locase == 'i' || locase == 'o' || locase == 'u') {
+          return alert(" the letter you entered is " + consletr + " and its a vowel");
+      } else{
+          return alert("the letter you entered is " + consletr + " and its a consonant");
+      }
+
+}
+
+//function Degree to Radians conversion
+
+function DegRad() {
+    alert("Welcome to Degree to Radian conversion Function");
+    var degreenum = prompt("pls enter any number in Degree  ");
+    var torad = parseInt(degreenum);
+      var radnum = torad * 0.0174533;
+      return alert ("you enter " + degreenum + " equavalent in  Radian is " + radnum.toFixed(3) + "radian");
+
+
+}
